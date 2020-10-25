@@ -27,4 +27,4 @@ HistoryList.propTypes = {
 };
 
 export default HistoryList;
-  
+

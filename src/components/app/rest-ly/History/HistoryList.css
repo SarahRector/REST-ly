@@ -1,0 +1,6 @@
+.HistoryList {
+  width: 60vh;
+  height: 90%;
+  overflow: auto;
+  background-color: #6aa0f7;
+}

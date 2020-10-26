@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls component renders Controls 1`] = `
+<DocumentFragment>
+  <form>
+    <input
+      name="url"
+      placeholder="URL Here"
+      type="text"
+      value="https://hey-arnold-api.herokuapp.com/api/v1/characters/random?count=2"
+    />
+    <section>
+      <div>
+        <input
+          checked=""
+          id="get"
+          name="method"
+          type="radio"
+          value="GET"
+        />
+        <label
+          for="get"
+        >
+          GET
+        </label>
+        <input
+          id="post"
+          name="method"
+          type="radio"
+          value="POST"
+        />
+        <label
+          for="post"
+        >
+          POST
+        </label>
+        <input
+          id="put"
+          name="method"
+          type="radio"
+          value="PUT"
+        />
+        <label
+          for="put"
+        >
+          PUT
+        </label>
+        <input
+          id="patch"
+          name="method"
+          type="radio"
+          value="PATCH"
+        />
+        <label
+          for="patch"
+        >
+          PATCH
+        </label>
+        <input
+          id="delete"
+          name="method"
+          type="radio"
+          value="DELETE"
+        />
+        <label
+          for="delete"
+        >
+          DELETE
+        </label>
+      </div>
+      <textarea
+        name="body"
+        placeholder="Returned JSON"
+      />
+      <button
+        data-testid="button"
+      >
+        Send
+      </button>
+    </section>
+  </form>
+</DocumentFragment>
+`;

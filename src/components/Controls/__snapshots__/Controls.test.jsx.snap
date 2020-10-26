@@ -72,7 +72,9 @@ exports[`Controls component renders Controls 1`] = `
         name="body"
         placeholder="Returned JSON"
       />
-      <button>
+      <button
+        data-testid="button"
+      >
         Send
       </button>
     </section>

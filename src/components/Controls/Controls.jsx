@@ -28,7 +28,7 @@ const Controls = ({ url, body, method, onChange, onSubmit }) => {
 
           <textarea placeholder="Returned JSON" name="body" value={body} onChange={onChange}></textarea>
 
-          <button>Send</button>
+          <button data-testid="button">Send</button>
         </section>
       </form>
     </>
